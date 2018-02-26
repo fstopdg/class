@@ -2,11 +2,11 @@
 
 int main(void)
 {
-    int number = 1;
+    int number = 0;
     while(1)
-    {
+    {   
+        number++; 
         printf("%d\n", number);
-        number += number;
         if(number > 100)
            break;
     }
